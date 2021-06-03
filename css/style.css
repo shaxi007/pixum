@@ -1,0 +1,371 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    padding: 0 100px;
+}
+
+nav {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+.logo:active {
+    opacity: 0.4;
+}
+a {
+    text-decoration: none;
+}
+.qora-a {
+    color: black;
+}
+
+.nav-qismi a {
+    font-size: 15px;
+    line-height: 24px;
+}
+.tel:hover {
+    border: 2px solid #00bafc;
+    background-color: white;
+    color: #00bafc;
+}
+
+.tepa-qismi li {
+    padding: 16px;
+}
+.tel {
+    width: 159px;
+    height: 38px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #00bafc;
+    margin: 8px 0;
+    border: 2px solid #00bafc;
+    color: white;
+}
+.tagi-qora {
+    border-bottom: 2px solid white;
+}
+.tagi-qora:hover {
+    border-bottom: 2px solid black;
+}
+.tagi-qora:active {
+    background: rgba(25, 25, 25, 0.7);
+}
+.tagi-qora:active a {
+    color: white;
+}
+.tel:active {
+    border: 2px solid rgba(0, 186, 252, 0.6);
+    background: rgba(0, 186, 252, 0.6);
+    color: white;
+}
+.qotirish {
+    position: relative;
+}
+.xizmatlar {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    height: 216px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    top: 55px;
+}
+.xizmatlar a {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+}
+.qotirish:hover .xizmatlar {
+    display: flex;
+    flex-direction: column;
+}
+.chiquvchi-oyna {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.chiquvchi-oyna:hover {
+    background-color: #00bafc;
+    color: white;
+}
+.chiquvchi-oyna:active {
+    opacity: 0.6;
+}
+
+/* nav bar qismi tugadi
+
+ikkinchi qism */
+
+.oragan-yoou {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.text-qismi {
+    width: 466px;
+    display: flex;
+    flex-direction: column;
+}
+.bizning-key {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+}
+.nullam {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.xizmatlar-bilan {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #00bafc;
+    color: #ffffff;
+    width: 236px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 2px solid #00bafc;
+}
+.xizmatlar-bilan:hover {
+    background: rgba(0, 186, 252, 0.8);
+}
+.xizmatlar-bilan:active {
+    background: rgba(0, 186, 252, 0.6);
+}
+iframe {
+    margin-right: 17px;
+}
+
+/*uchichi qismi */
+
+.ul-lilarni-oragan {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nulam2 {
+    text-align: center;
+    width: 719px;
+}
+.rasm-va-text {
+    width: 320px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 0 35px 48px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lilarni-kartochka {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rasm-va-text img {
+    height: 130px;
+}
+
+.rasm-va-text h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+}
+.rasm-va-text p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ul-tagi a:first-child {
+    width: 167px;
+    height: 40px;
+    background-color: #00bafc;
+    font-weight: bold;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.ul-tagi a:last-child {
+    text-decoration: underline;
+    color: #00bafc;
+    margin-left: 16px;
+}
+.rasm-va-text:hover {
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
+.rasm-va-text:active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*tortinchi qismi */
+.sozlashuv-qismi {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.biz-haqimiz {
+    text-align: center;
+}
+.nulam4 {
+    width: 719px;
+    margin-left: 190px;
+    text-align: center;
+}
+.yozishmalar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.xbarlar {
+    width: 832px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.xbarlar img {
+    width: 300px;
+}
+.h1-vaplar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 32px;
+}
+.xbarlar:last-child {
+    margin-bottom: 0;
+}
+.revers {
+    flex-direction: row-reverse;
+}
+.revers img {
+    margin-left: 32px;
+}
+.btn {
+    width: 167px;
+    height: 40px;
+    background-color: #00bafc;
+    font-weight: bold;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-bottom: 56px;
+}
+/* beshinchi qismi */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 304px;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+    padding: 24px;
+}
+.kok {
+    background-color: #00bafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    height: 543px;
+}
+.oq {
+    color: white;
+}
+input,
+select {
+    width: 300px;
+    padding: 16px;
+    margin-bottom: 16px;
+    outline: none;
+    font-weight: 500;
+    border: 0;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+.font {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+/*oxirgi qism
+*/
+.qora {
+    display: flex;
+    background-color: #191919;
+    color: white;
+}
+.copy {
+    padding: 56px 0;
+}
+.copy p {
+    width: 320px;
+}
+.eng-pasti {
+    display: flex;
+    padding: 56px 0;
+    margin-left: 100px;
+}
+.sayt-sahifa {
+    flex-direction: column;
+}
+.navi2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+}
+.eng-pasti li {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 5px;
+}
+.eng-pasti li:nth-child(2){
+    margin-top: 20px;
+}
+.kat {
+    width: 160px;
+}
+.biz-internt a{
+    display: flex;
+    align-items: center;
+}
+.biz-internt {
+    margin-bottom: 5px;
+}
+.biz-internt a img {
+    margin-right: 5px;
+}
+.sayt-sahifa li a{
+    color: white;
+}

@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Timmana
+- Font Author: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2011, Sergiy Tkachenko (www.4thfebruary.com.ua info@4thfebruary.com.ua), with Reserved Font Names 'Sansus', 'Webissimo'.
+- Font Source: http://fonts.gstatic.com/s/timmana/v7/6xKvdShfL9yK-rvpCmvbKHwJUOM.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
