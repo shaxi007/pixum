@@ -170,6 +170,9 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .nulam2 {
     text-align: center;
