@@ -2,7 +2,10 @@
     font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+}
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -16,6 +19,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 2px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
 ul {
     list-style-type: none;
@@ -299,8 +303,13 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1300px;
     height: 543px;
+
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+    padding: 0 100px;
 }
 .oq {
     color: white;
@@ -325,9 +334,14 @@ select {
 /*oxirgi qism
 */
 .qora {
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
     display: flex;
     background-color: #191919;
     color: white;
+    padding: 0 100px;
 }
 .copy {
     padding: 56px 0;
@@ -353,13 +367,13 @@ select {
     line-height: 24px;
     padding-bottom: 5px;
 }
-.eng-pasti li:nth-child(2){
+.eng-pasti li:nth-child(2) {
     margin-top: 20px;
 }
 .kat {
     width: 160px;
 }
-.biz-internt a{
+.biz-internt a {
     display: flex;
     align-items: center;
 }
@@ -369,6 +383,6 @@ select {
 .biz-internt a img {
     margin-right: 5px;
 }
-.sayt-sahifa li a{
+.sayt-sahifa li a {
     color: white;
 }
